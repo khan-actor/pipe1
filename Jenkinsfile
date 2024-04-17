@@ -8,7 +8,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/owaiss/Downloads/apache-maven-3.9.0/bin/mvn install'
+			  sh '/home/owaiss/Documents/devopsoftware/apache-maven-3.9.6/bin install'
 	                 }}
 		stage('Deployment'){
 		   steps {
